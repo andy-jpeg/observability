@@ -1,0 +1,32 @@
+{
+  "name": "observability",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy-jpeg/observability.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy-jpeg/observability/issues"
+  },
+  "homepage": "https://github.com/andy-jpeg/observability#readme",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/auto-instrumentations-node": "^0.58.1",
+    "@opentelemetry/exporter-jaeger": "^2.12.1",
+    "@opentelemetry/instrumentation-http": "^0.200.0",
+    "@opentelemetry/instrumentation-mongodb": "^0.53.0",
+    "@opentelemetry/sdk-node": "^0.200.0",
+    "@opentelemetry/sdk-trace-node": "^2.12.1",
+    "express": "^5.3.0",
+    "mongodb": "^4.17.2",
+    "opentelemetry-instrumentation-express": "^0.41.0"
+  }
+}
